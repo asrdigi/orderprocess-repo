@@ -1,7 +1,6 @@
 pipeline {
   agent any
   stages {
-<<<<<<< HEAD
 	stage('Unit Test') {
 	   steps {
 	       bat label: 'Test running', script: '''mvn test'''
